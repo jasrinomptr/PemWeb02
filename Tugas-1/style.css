@@ -9,13 +9,15 @@
     height: 200px;
     background-color: #b0facb;
     background-image: linear-gradient(to bottom right, #1D976C, #93F9B9);
-    z-index: 1;
 }
 
 h3{
-    margin-left: 32rem;
-    margin-top: 12rem;
-    z-index: 2;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:25%;
+    margin: 0 auto;
+    max-width: 600px;
 }
 
 .animate-character
