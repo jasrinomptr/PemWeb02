@@ -1,23 +1,27 @@
 <?php
-$ns1 = ['id' => 1, 'nim' => '01101', 'uts' => 80, 'uas' => 84, 'tugas' => 78];
-$ns2 = ['id' => 2, 'nim' => '01121', 'uts' => 70, 'uas' => 50, 'tugas' => 68];
-$ns3 = ['id' => 3, 'nim' => '01130', 'uts' => 60, 'uas' => 86, 'tugas' => 70];
-$ns4 = ['id' => 4, 'nim' => '01134', 'uts' => 90, 'uas' => 91, 'tugas' => 82];
+$ns1 = ['id' => 1, 'nama' => 'Jasrino Maulana', 'nim' => '01101', 'uts' => 80, 'uas' => 84, 'tugas' => 78];
+$ns2 = ['id' => 2, 'nama' => 'Fadly Kalam', 'nim' => '01121', 'uts' => 70, 'uas' => 50, 'tugas' => 68];
+$ns3 = ['id' => 3, 'nama' => 'Arbitio Bagas', 'nim' => '01130', 'uts' => 60, 'uas' => 86, 'tugas' => 70];
+$ns4 = ['id' => 4, 'nama' => 'Dimas Julian', 'nim' => '01134', 'uts' => 90, 'uas' => 91, 'tugas' => 82];
+$ns5 = ['id' => 5, 'nama' => 'Hafizh Wahyu', 'nim' => '01143', 'uts' => 55, 'uas' => 95, 'tugas' => 80];
+$ns6 = ['id' => 6, 'nama' => 'Hadi', 'nim' => '01154', 'uts' => 80, 'uas' => 85, 'tugas' => 85];
+$ns7 = ['id' => 7, 'nama' => 'Dea Amnesty', 'nim' => '01165', 'uts' => 75, 'uas' => 75, 'tugas' => 90];
+$ns8 = ['id' => 8, 'nama' => 'Jalil Rambe', 'nim' => '01176', 'uts' => 92, 'uas' => 88, 'tugas' => 75];
 
-$ar_nilai = [$ns1, $ns2, $ns3, $ns4];
+$ar_nilai = [$ns1, $ns2, $ns3, $ns4, $ns5, $ns6, $ns7, $ns8];
 
 ?>
 
 <html>
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body id="grad1">
-<h3 class="animate-character">Daftar Nilai Siswa</h3>
+<h3 class="animate-character">Daftar Nilai SI-14 Tahun 2022/2023 Ganjil</h3>
 <table>
     <thead>
         <tr>
-            <th>No</th><th>NIM</th><th>UTS</th>
+            <th>No</th><th>Nama</th><th>NIM</th><th>UTS</th>
             <th>UAS</th><th>Tugas</th><th>Nilai Akhir</th>
         </tr>
     </thead>
@@ -26,6 +30,7 @@ $ar_nilai = [$ns1, $ns2, $ns3, $ns4];
         $nomor = 1;
         foreach($ar_nilai as $ns){
             echo '<tr><td>'.$nomor.'</td>';
+            echo '<td>'.$ns['nama'].'</td>';
             echo '<td>'.$ns['nim'].'</td>';
             echo '<td>'.$ns['uts'].'</td>';
             echo '<td>'.$ns['uas'].'</td>';
