@@ -1,0 +1,106 @@
+* {
+    margin:0;
+    padding:0;
+    outline:0;
+}
+
+body{
+    height:745px;
+    background-color: #ad5389;
+    background-image: linear-gradient(to bottom right, #ad5389, #3c1053);
+}
+
+h1, h2, h3, h4, h5, p, span, label {
+    color: #fff;
+}
+
+#title{
+    text-align: center;
+}
+
+
+form{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+
+#tabel{
+    padding: 1rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    border: collapse;
+    border-spacing: 0;
+    box-shadow: 0 2px 15px rgba(64,64,64,.7);
+    border-radius: 12px 12px 12px 12px;
+    overflow: hidden;
+    background-color: #3c1053;
+}
+
+.btn-kirim{
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn-kirim:hover,
+.btn-kirim:focus {
+  background-color: #F082AC;
+}
+
+.btn-reset{
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+  
+.btn-reset:hover,
+.btn-reset:focus {
+    background-color: #F082AC;
+}
+
